@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/newsletter-sign-up-form-with-success-message-dvcOOt4mLx)
+- Live Site URL: [Add live site URL here](https://newsletter-sign-up-form-topaz.vercel.app/)
 
 ## My process
 
