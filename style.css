@@ -1,0 +1,192 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(235, 18%, 26%);
+    font-family: 'Roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+    margin: 0;
+    
+  }
+
+  .page{
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    margin: 20px;
+  }
+
+  .card1{
+    display: none;
+  }
+  
+
+  .left_side{
+    margin: 50px 50px;
+    width: 50%;
+  }
+
+  .stay_updated{
+    font-size: 60px;
+  }
+
+  .right_side{
+    margin: 15px 15px;
+    width: 50%;
+  }
+
+  .right_img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .paragraph_element{
+    padding: 0px;
+    margin: 5px 0px 5px 15px;
+  }
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+  .updates{ 
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+  }
+  .tick_list{
+    width: 21px;
+  }
+
+  .tick{
+    width: 40px;
+  }
+
+  .updates_element{
+    display: flex;
+  }
+
+  .input_and_button{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email_input, .subscribe_button{
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .email_input{
+    border-color: hsl(231, 7%, 60%);
+    border-width: 1px;
+    padding-left: 10px;
+  }
+
+  .subscribe_button{
+    margin-top: 25px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    border: none;
+  }
+
+  .email_label{
+    margin-bottom: 10px;
+  }
+
+  .error_field{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .error_message{
+    color: hsl(4, 100%, 67%);
+    margin-bottom: 10px;
+  }
+
+  .pop_up{
+    display: none;
+  }
+  .card2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 400px;
+    min-height: 250px;
+    border-radius: 20px;
+    padding: 30px;
+  }
+
+  .message{
+    margin-top: 0px;
+  }
+
+  .dismiss_button{
+    width: 100%;
+    height: 40px;
+    background-color: hsl(4, 100%, 67%);
+    border: none;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+  }
+  .dismiss_button:hover{
+    box-shadow: 0px 8px 15px hsl(4, 50%, 67%);
+    cursor: pointer;
+  }
+
+  /* Styles for screens smaller than 768px */
+  @media (max-width: 768px) {
+        .page {
+          display: flex;
+          flex-direction: column-reverse;
+          width: 100%;
+          align-items: center;       
+          margin: 0;   
+          border-radius: 0px;  
+        }
+        .left_side{
+          width: 100%;
+          margin: 5px 0;
+        }
+        .left_side_children{
+          margin: 25px;
+        }
+        .right_side{
+          width: 100%;
+          margin: 0;
+        }
+        .right_img{
+          /* width: 100%;
+          height: 100%; */
+          margin: 0;
+        }
+        .stay_updated{
+          font-size: 40px;
+        }
+        .card1{
+            display: none;
+          }
+        .card3{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          background-color: hsl(0, 0%, 100%);
+          height: 40rem;
+          padding: 25px;
+        }
+        .tick{
+          width: 60px;
+          margin: 150px 0 20px 0;
+        }
+        .thanksgiving{
+          font-size: 50px;
+        }
+        .dismiss_button{
+          margin-top: 50px;
+          background-color: hsl(234, 29%, 20%);
+          border-radius: 10px;
+          height: 60px;
+        }
+        .attribution{
+          margin-top: 5px;
+        }
+    }
