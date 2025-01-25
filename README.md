@@ -33,8 +33,10 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-![Large screen view](image.png)
-![Small screen](image-1.png)
+Large screen view 
+![](image.png)
+Small screen 
+![](image-1.png)
 
 
 ### Links
